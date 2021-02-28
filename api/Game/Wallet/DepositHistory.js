@@ -7,7 +7,7 @@ module.exports = function (socket, crypter) {
      */
     function depositHistory(uid){
         Deposit.getAllDeposit(uid, (result) => {
-            socket.emit('deposit_history',crypter.encrypt({ data: result }));
+            socket.emit('deposit_history',{ data: result });
         });
     }
     return {
