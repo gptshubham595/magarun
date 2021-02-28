@@ -3,4 +3,10 @@ node_modules/*
 db
 api
 admin
+api2OLD
+api2
+db2
+cgi
+.vscode
+
 
