@@ -1,0 +1,37 @@
+{
+  "name": "chateau",
+  "version": "0.3.17",
+  "description": "Data explorer for RethinkDB",
+  "main": "app.js",
+  "directories": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neumino/chateau"
+  },
+  "keywords": [
+    "rethinkdb",
+    "dataexplorer"
+  ],
+  "author": "Michel Tu <orphee@gmail.com> (http://justonepixel.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neumino/chateau/issues"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "= 1.0.2",
+    "rethinkdb": ">= 1.12.0-0",
+    "optimist": " >= 0.6.0",
+    "stream": ">= 0.0.1"
+  },
+  "devDependencies": {
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma": "~0.10.1",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-ng-scenario": "~0.1.0"
+  },
+  "bin": "./bin/chateau"
+}

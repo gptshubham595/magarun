@@ -1,0 +1,12 @@
+[18-Feb-2021 16:24:46 UTC] PHP Notice:  Undefined index: amount in /home/magaoedd/public_html/pay.php on line 19
+[18-Feb-2021 16:24:46 UTC] PHP Notice:  Undefined index: order_id in /home/magaoedd/public_html/pay.php on line 20
+[18-Feb-2021 16:24:46 UTC] PHP Notice:  Undefined index: api in /home/magaoedd/public_html/pay.php on line 21
+[18-Feb-2021 16:24:46 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function openCurl(), 0 passed in /home/magaoedd/public_html/pay.php on line 26 and exactly 1 expected in /home/magaoedd/public_html/pay.php:3
+Stack trace:
+#0 /home/magaoedd/public_html/pay.php(26): openCurl()
+#1 {main}
+  thrown in /home/magaoedd/public_html/pay.php on line 3
+[18-Feb-2021 16:36:45 UTC] PHP Notice:  Undefined index: order_id in /home/magaoedd/public_html/pay.php on line 22
+[18-Feb-2021 16:36:45 UTC] PHP Notice:  Undefined index: api in /home/magaoedd/public_html/pay.php on line 23
+[18-Feb-2021 16:37:14 UTC] PHP Notice:  Undefined index: order_id in /home/magaoedd/public_html/pay.php on line 22
+[18-Feb-2021 16:37:14 UTC] PHP Notice:  Undefined index: api in /home/magaoedd/public_html/pay.php on line 23
